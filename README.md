@@ -6,7 +6,7 @@ You can use [rnpm](https://github.com/rnpm/rnpm) to install native component eas
 
 ```bash
 npm install react-native-simple-toast --save
-rnpm link
+npm link
 ```
 
 ## Usage
