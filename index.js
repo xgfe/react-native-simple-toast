@@ -13,14 +13,14 @@ const SimpleToast = {
   BOTTOM: RCTToastAndroid.BOTTOM,
   CENTER: RCTToastAndroid.CENTER,
 
-  show = (message, duration) => {
+  show: function(message, duration) {
     RCTToastAndroid.show(
       message,
       duration === undefined ? this.SHORT : duration,
     );
   },
 
-  showWithGravity = (message, duration, gravity) => {
+  showWithGravity: function(message, duration, gravity) {
     RCTToastAndroid.showWithGravity(
       message,
       duration === undefined ? this.SHORT : duration,
@@ -28,13 +28,13 @@ const SimpleToast = {
     );
   },
 
-  showWithGravityAndOffset = (
+  showWithGravityAndOffset: function(
     message,
     duration,
     gravity,
     xOffset,
     yOffset,
-  ) => {
+  ) {
     RCTToastAndroid.showWithGravityAndOffset(
       message,
       duration === undefined ? this.SHORT : duration,
