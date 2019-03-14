@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.author        = "Libin Lu"
   s.license       = package['license']
   s.requires_arc  = true
-  s.homepage      = "https://github.com/thiemo--bleeken/react-native-simple-toast"
-  s.source        = { :git => 'https://github.com/thiemo--bleeken/react-native-simple-toast.git' }
+  s.homepage      = "https://github.com/xgfe/react-native-simple-toast"
+  s.source        = { :git => 'https://github.com/xgfe/react-native-simple-toast' }
   s.platform      = :ios, '8.0'
   s.source_files  = "ios/**/*.{h,m}"
 
